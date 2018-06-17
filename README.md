@@ -7,7 +7,7 @@
 * CSS
 * JavaScript
 * BootStrap4
-* Hosted on GitHub Pages
+* Hosted on GitHub Pages and Deployed to Netlify
 * Uses FontAwesome5 and Google's Material Icons
 -----
 > ## &copy; 2018-19 Students' Council CRCE
