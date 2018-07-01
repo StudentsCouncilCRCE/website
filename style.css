@@ -7,7 +7,7 @@ html, body {
   }
  .navbar   {
     padding: .8rem;
-    background-color: #272727 !important;
+    background-color: #000000 !important;
  
   }
   .navbar-brand {
@@ -25,17 +25,34 @@ html, body {
     font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
     text-transform: uppercase;
   }
-  .navbar-default .navbar-navbar-nav > li > a:hover, .navbar-default .navbar-navbar-nav > li > a:focus {
-    background-color: #FFFF00;
-    color: #FFC0CB;
-}
+  .navbar-light .nav-item .active a,  .navbar-light .nav-item .active a:focus,
+  .navbar-light .nav-item .active a:hover, {
+      color:#fed136;
+      background-color:#5E4485;
+  }
+
  
- 
-  .navbar-nav li {
+  .navbar-light .navbar-nav li a {
     padding-right: 20px;
   }
   .nav-link {
     font-size: 1.1em !important;
+  }
+   .navbar-toggler{
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+   
+    color: black !important;
+    border: 0;
+    background-color: #fff;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-color: white;
+    color: black;
+    width: 2em;
   }
   
     .display-2 {
@@ -69,3 +86,106 @@ html, body {
         text-shadow: 1px 1px 10px #000;
         padding-bottom: 1rem;
       }
+      .fa-facebook {
+        color: #3b5998;
+        font-size: 2em;
+        
+      }
+      .fa-instagram {
+        color: #517fa4;
+        font-size: 2em !important;
+      }
+      .fa-youtube {
+        color: #bb0000;
+        font-size: 2em;
+      }
+      .fa-snapchat {
+        color: #fffc00;
+        font-size: 2em;
+      }
+      .social a{
+       font-size: 2.5em;
+        padding: 3rem;
+      }
+      .fa-facebook:hover, .fa-snapchat:hover,.fa-instagram:hover ,.fa-youtube:hover {
+        color: #d5d5d5;
+        }
+       .card-body {
+         height: 50%;
+         width: 90%;
+         
+       }
+       .card {
+         height: 65%;
+         width: 70%;
+         margin-top: 90px;
+         margin-left: 200px;
+       }
+       .bg-faded {
+         margin-top: 7em;
+       }
+       .my-3 {
+      width: 50%;
+      
+       }
+       footer {
+        padding: 25px 0;
+        text-align: center;
+        background-color: #222;
+        color: #d5d5d5;
+        margin-top: 100px;
+        text-transform: uppercase;
+    }
+
+    .button {
+     
+      background-color: #f4511e;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 15px;
+      padding: 20px;
+      width: 1000px;
+      height: 5rem;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+    }
+    
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .button:hover span {
+      padding-right: 25px;
+    }
+    
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+    .img-fluid {
+      height: 300px;
+    }
+    #sports {
+     
+      margin: 0;
+      outline: 0mm;
+      text-decoration-color: white;
+    }
+    #team {
+      background-color: #f6f5f3;
+    }
+    
