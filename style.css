@@ -13,7 +13,7 @@ html, body {
   .navbar-brand {
     color: white !important;
     font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial;
-    font-size: 2.5rem !important;
+    font-size: 1.9rem !important;
 
   }
   .nav-item .nav-link {
@@ -21,15 +21,11 @@ html, body {
     font-weight: 400;
     padding: .75em 0;
     letter-spacing: 1px;
-    color: #fff !important;
+    color: lightgrey !important;
     font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
     text-transform: uppercase;
   }
-  .navbar-light .nav-item .active a,  .navbar-light .nav-item .active a:focus,
-  .navbar-light .nav-item .active a:hover, {
-      color:#fed136;
-      background-color:#5E4485;
-  }
+ 
 
  
   .navbar-light .navbar-nav li a {
@@ -38,6 +34,10 @@ html, body {
   .nav-link {
     font-size: 1.1em !important;
   }
+  .navbar-light .navbar-nav > li > a:hover, .navbar-light .navbar-nav  >li > a:focus {
+    color: white!important;
+  }
+
    .navbar-toggler{
     font-size: 12px;
     right: 0;
@@ -49,10 +49,11 @@ html, body {
     font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
     text-transform: uppercase;
   }
-  .navbar-light .navbar-toggler-icon {
-    background-color: white;
-    color: black;
+  .navbar-light  .navbar-toggler .navbar-toggler-icon {
+    background-color: white ;
+    color: green;
     width: 2em;
+    
   }
   
     .display-2 {
@@ -73,7 +74,7 @@ html, body {
       .carousel-caption {
         position:absolute;
         top: 50%;
-        transform:  translateY(-50%);
+        transform:  translateY(-70%);
       }
       .carousel-caption h1 {
         font-size: 500%;
@@ -85,6 +86,16 @@ html, body {
         font-weight: 500;
         text-shadow: 1px 1px 10px #000;
         padding-bottom: 1rem;
+      }
+      .carousel-inner img-fluid{
+        width:100% !important ;
+        height: 90%;
+      }
+     
+      .img-fluid{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
       }
       .fa-facebook {
         color: #3b5998;
@@ -110,17 +121,24 @@ html, body {
       .fa-facebook:hover, .fa-snapchat:hover,.fa-instagram:hover ,.fa-youtube:hover {
         color: #d5d5d5;
         }
-       .card-body {
-         height: 80%;
-         width: 90%;
-         
-       }
+       
        .card {
-         height: 85%;
+         height: 75%;
          width: 70%;
          margin-top: 90px;
          margin-left: 200px;
        }
+       .card-title {
+         margin-bottom: .75rem;
+         text-align: center;
+       }
+       .card-img-top {
+        width: 100%;
+        height: 60%;
+        border-top-left-radius: calc(.25rem - 1px);
+        border-top-right-radius: calc(.25rem - 1px);
+       }
+       
        .bg-faded {
          margin-top: 7em;
        }
@@ -176,18 +194,19 @@ html, body {
       opacity: 1;
       right: 0;
     }
-    .img-fluid {
-      height: 300px;
-    }
+   
     #sports {
      
-      margin: 0;
+      margin-top: inherit;
       outline: 0mm;
       text-decoration-color: white;
+      background-color: #708090;
+      padding-top: 3rem;
     }
     #team {
       background-color: #f6f5f3;
     }
+
     
 
 
@@ -200,10 +219,17 @@ html, body {
         font-size: 2em;
         padding: 2rem;
       }
+    
+    .carousel-inner img-fluid{
+      width: 100%;
+      height: 100%;
     }
+   
+  }
     @media (max-width: 768px) {
 .carousel-caption {
   top: 80%;
+  transform: translateY(-130%);
 }
 .carousel-caption h1 {
   font-size: 350%;
@@ -240,13 +266,15 @@ html, body {
       .carousel-caption {
   
         top: 50%;
+        transform: translateY(-130%);
        
       }
       .carousel-caption h1 {
-        font-size: 250%;
+        font-size: 170%;
       }
       .carousel-caption h3 {
         font-size: 110%;
+        transform: translateY(-100%);
       }
       .carousel-caption .btn {
         font-size: 90%;
@@ -262,17 +290,14 @@ html, body {
         font-size: 2em;
         padding: 0.7rem;
       }
-      .carousel-item {
-        width: 100%;
-        height: 50%;
+      .carousel-inner img-fluid {
+        height: 10% !important;
       }
-      .img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%
+      .display-2{
+        font-size: 75%;
       }
+     
       
       
     }
-
+   
