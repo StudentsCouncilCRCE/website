@@ -25,6 +25,9 @@ html, body {
     font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
     text-transform: uppercase;
   }
+  .jumbotron {
+    margin-bottom: 00;
+  }
  
 
  
@@ -202,10 +205,9 @@ html, body {
       text-decoration-color: white;
       background-color: #708090;
       padding-top: 3rem;
+      padding-bottom: 4rem;
     }
-    #team {
-      background-color: #f6f5f3;
-    }
+    
 
     .person {
       border: 10px solid transparent;
@@ -246,16 +248,21 @@ html, body {
     @media (max-width: 768px) {
 .carousel-caption {
   top: 80%;
-  transform: translateY(-130%);
+  ;
 }
 .carousel-caption h1 {
   font-size: 350%;
+  transform: translateY(-200%);
 }
 .carousel-caption h3 {
   font-size: 140%;
   font-weight: 400;
+  transform: translateY(-500%);
   
   padding-bottom: 0.2rem;
+}
+.display-2 {
+  transform: translateY(-100%);
 }
 .carousel-caption .btn {
   font-size: 95%;
@@ -342,6 +349,7 @@ html, body {
       }
       .carousel-caption h1 {
         font-size: 150%;
+        transform: translateY(30%);
       }
       .carousel-caption h3 {
         font-size: 110%;
@@ -374,6 +382,7 @@ html, body {
       #Aradhya {
         margin-top: 2rem;
       }
+     
       
       
     }
