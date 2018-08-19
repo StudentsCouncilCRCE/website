@@ -223,9 +223,11 @@ html, body {
     border-radius: 50%;
    }
 
-   #teammain {
-     background-color: #5D5C61;
+   #team {
+     padding: 3rem;
+     margin-bottom: 1rem;
    }
+   
    
 
 
@@ -349,7 +351,7 @@ html, body {
       }
       .carousel-caption h1 {
         font-size: 150%;
-        transform: translateY(30%);
+        transform: translateY(20%);
       }
       .carousel-caption h3 {
         font-size: 110%;
