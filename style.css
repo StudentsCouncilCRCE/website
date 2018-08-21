@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 html, body {
     height: 100%;
     width: 100%;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #222;
   }
  .navbar   {
     padding: .8rem;
-    background-color: #000000 !important;
+    background-color: black !important;
  
   }
   .navbar-brand {
@@ -27,6 +27,7 @@ html, body {
   }
   .jumbotron {
     margin-bottom: 00;
+    background-color: #2B7A78;
   }
  
 
@@ -82,7 +83,7 @@ html, body {
       .carousel-caption h1 {
         font-size: 500%;
         text-transform: uppercase;
-        text-shadow: 1px 1px 10px #000;
+        text-shadow: 2px 2px #000;
       }
       .carousel-caption h3 {
         font-size: 200%;
@@ -142,9 +143,7 @@ html, body {
         border-top-right-radius: calc(.25rem - 1px);
        }
        
-       .bg-faded {
-         margin-top: 7em;
-       }
+       
        .my-3 {
       width: 50%;
       
@@ -203,7 +202,7 @@ html, body {
       margin-top: inherit;
       outline: 0mm;
       text-decoration-color: white;
-      background-color: #708090;
+      background-color: #3AAFA9;
       padding-top: 3rem;
       padding-bottom: 4rem;
     }
@@ -226,7 +225,15 @@ html, body {
    #team {
      padding: 3rem;
      margin-bottom: 1rem;
+     background-color: #DEF2F1;
    }
+   .text-muted {
+    color: #DEF2F1!important;
+    text-shadow: 0.5px 0.5px 0.5px black;
+   }
+   
+   
+   
    
    
 
