@@ -14,8 +14,9 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- CSS & FONT FILES -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-agency/4.1.1/css/agency.min.css"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -25,6 +26,8 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
     <link rel="stylesheet" href="./css/animate.min.css">
+    
+  
     
   
 
@@ -63,13 +66,101 @@
       }
   }
 
+  .wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          background-color: black;
+}
+
+.text {
+  color: #fbae17;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.bounceball {
+  position: relative;
+  display: inline-block;
+  height: 37px;
+  width: 15px;
+}
+.bounceball:before {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fbae17;
+  -webkit-transform-origin: 50%;
+          transform-origin: 50%;
+  -webkit-animation: bounce 500ms alternate infinite ease;
+          animation: bounce 500ms alternate infinite ease;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    top: 30px;
+    height: 5px;
+    border-radius: 60px 60px 20px 20px;
+    -webkit-transform: scaleX(2);
+            transform: scaleX(2);
+  }
+  35% {
+    height: 15px;
+    border-radius: 50%;
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    top: 30px;
+    height: 5px;
+    border-radius: 60px 60px 20px 20px;
+    -webkit-transform: scaleX(2);
+            transform: scaleX(2);
+  }
+  35% {
+    height: 15px;
+    border-radius: 50%;
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  100% {
+    top: 0;
+  }
+}
+
 </style>
+<script>
+    var wrap = document.getElementById("wrap");
+    window.addEventListener('load',function()
+    {
+        wrap.style.display='none';
+    })
+</script>
+
 
 
 
 <body id="page-top">
     
  <!--CSS Spinner-->
+ <div class="wrap">
+    <div class="loading">
+      <div class="bounceball"></div>
+      <div class="text">NOW LOADING</div>
+    </div>
+  </div>
 
 
 
@@ -118,8 +209,11 @@
             <div class="carousel-item active">
                 <img class="img-fluid" src="./img/background4.jpg" >
                 <div class="carousel-caption">
-                    <h1 class="display-2" style="font-family: 'Gaegu', cursive;">STUDENTS' COUNCIL</h1>
-                    <h3 id="collegename" style="font-family: 'Gaegu', cursive;">Fr. Conceicao Rodrigues College Of Engineering</h3>
+                    
+                    <h1 class="display-2 head1" style="font-family: 'Gaegu', cursive;">STUDENTS' COUNCIL</h1>
+                    
+                    
+                    <h3 id="collegename" style="font-family: 'Gaegu', cursive; color: white">Fr. Conceicao Rodrigues College Of Engineering</h3>
                    
                 </div>
             </div>
@@ -178,8 +272,11 @@
                 
                                 <div class="row">
                                     <div class="col-md-4 col-sm-6 portfolio-item">
+                                        
                                         <div class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                                            
                                             <img class="img-fluid" style="box-shadow: 3px 3px 3px black; border-radius: 0.5rem" src="./img/yoga.jpg" alt="yoga" >
+                                            
                                         </div>
                                         <br>
                                         <div class="portfolio-caption">
@@ -287,7 +384,7 @@
                             
                             <div class="col-lg-8 offset-lg-2 text-center animated infinite pulse">
                                     <a href="team.html">
-                                        <p style="font-size: 3rem">--->   Know our entire team!   <---</p>
+                                        <p style="font-size: 3rem">Know our entire team!</p>
                                     </a>
                                 </div>
                         </div>
@@ -334,7 +431,7 @@
                     <div class="col-md-4">
                         <ul class="list-inline quicklinks">
                             <li class="list-inline-item">
-                                <a href="index.html">HOME</a>
+                                <a href="#page-top">HOME</a>
                             </li>
                             
                             <li class="list-inline-item">
@@ -422,6 +519,10 @@
     
 
     <!-- JAVASCRIPT FILES -->
+    <script src="js/smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
     
 </body>
 

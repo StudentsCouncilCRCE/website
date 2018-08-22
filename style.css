@@ -360,9 +360,11 @@ html, body {
         font-size: 150%;
         transform: translateY(20%);
       }
-      .carousel-caption h3 {
-        font-size: 110%;
-        transform: translateY(-100%);
+      
+      #collegename {
+          
+     font-size: 110%;
+     transform: translateY(-45%);
       }
       .carousel-caption .btn {
         font-size: 90%;
