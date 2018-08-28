@@ -1,400 +1,362 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
-html, body {
-    height: 100%;
-    width: 100%;
-    font-family: 'Oswald', sans-serif;
-    color: #222;
-  }
- .navbar   {
-    padding: .8rem;
-    background-color: black !important;
- 
-  }
-  .navbar-brand {
-    color: white !important;
-    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial;
-    font-size: 1.9rem !important;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+  color: #222;
+}
+.navbar {
+  padding: 0.8rem;
+  background-color: black !important;
+}
+.navbar-brand {
+  color: white !important;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial;
+  font-size: 1.9rem !important;
+}
+.nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: lightgrey !important;
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+.jumbotron {
+  margin-bottom: 00;
+  background-color: #2b7a78;
+}
 
-  }
-  .nav-item .nav-link {
-    font-size: 90%;
-    font-weight: 400;
-    padding: .75em 0;
-    letter-spacing: 1px;
-    color: lightgrey !important;
-    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
-    text-transform: uppercase;
-  }
-  .jumbotron {
-    margin-bottom: 00;
-    background-color: #2B7A78;
-  }
- 
+.navbar-light .navbar-nav li a {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+.navbar-light .navbar-nav > li > a:hover,
+.navbar-light .navbar-nav > li > a:focus {
+  color: white !important;
+}
 
- 
-  .navbar-light .navbar-nav li a {
-    padding-right: 20px;
-  }
-  .nav-link {
-    font-size: 1.1em !important;
-  }
-  .navbar-light .navbar-nav > li > a:hover, .navbar-light .navbar-nav  >li > a:focus {
-    color: white!important;
-  }
+.navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
 
-   .navbar-toggler{
-    font-size: 12px;
-    right: 0;
-    padding: 13px;
-   
-    color: black !important;
-    border: 0;
-    background-color: #fff;
-    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
-    text-transform: uppercase;
-  }
-  .navbar-light  .navbar-toggler .navbar-toggler-icon {
-    background-color: white ;
-    color: green;
-    width: 2em;
-    
-  }
-  
-    .display-2 {
-      font-size: 75px;
-    font-weight: 700;
-    line-height: 75px;
-    margin-bottom: 50px;
-    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
-    text-transform: uppercase;
-    }
-    #collegename .display-2 {
-      font-size: 40px;
-    font-style: italic;
-    line-height: 40px;
-    margin-bottom: 25px;
-    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
-    }
-      .carousel-caption {
-        position:absolute;
-        top: 50%;
-        transform:  translateY(-70%);
-      }
-      .carousel-caption h1 {
-        font-size: 500%;
-        text-transform: uppercase;
-        text-shadow: 2px 2px #000;
-      }
-      .carousel-caption h3 {
-        font-size: 200%;
-        font-weight: 500;
-        text-shadow: 1px 1px 10px #000;
-        padding-bottom: 1rem;
-      }
-      .carousel-inner img-fluid{
-        width:100% !important ;
-        height: 90%;
-      }
-     
-      .img-fluid{
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-      }
-      .fa-facebook {
-        color: #3b5998;
-        font-size: 2em;
-        
-      }
-      .fa-instagram {
-        color: #517fa4;
-        font-size: 2em !important;
-      }
-      .fa-youtube {
-        color: #bb0000;
-        font-size: 2em;
-      }
-      .fa-snapchat {
-        color: #fffc00;
-        font-size: 2em;
-      }
-      .social a{
-       font-size: 2.5em;
-        padding: 3rem;
-      }
-      .fa-facebook:hover, .fa-snapchat:hover,.fa-instagram:hover ,.fa-youtube:hover {
-        color: #d5d5d5;
-        }
-       
-       .card {
-         height: 75%;
-         width: 70%;
-         margin-top: 90px;
-         margin-left: 200px;
-       }
-       .card-title {
-         margin-bottom: .75rem;
-         text-align: center;
-       }
-       .card-img-top {
-        width: 100%;
-        height: 60%;
-        border-top-left-radius: calc(.25rem - 1px);
-        border-top-right-radius: calc(.25rem - 1px);
-       }
-       
-       
-       .my-3 {
-      width: 50%;
-      
-       }
-       footer {
-        padding: 25px 0;
-        text-align: center;
-        background-color: #222;
-        color: #d5d5d5;
-        margin-top: 100px;
-        text-transform: uppercase;
-    }
+  color: black !important;
+  border: 0;
+  background-color: #fff;
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+.navbar-light .navbar-toggler .navbar-toggler-icon {
+  background-color: white;
+  color: green;
+  width: 2em;
+}
 
-    .button {
-     
-      background-color: #f4511e;
-      border: none;
-      color: #FFFFFF;
-      text-align: center;
-      font-size: 15px;
-      padding: 20px;
-      width: 1000px;
-      height: 5rem;
-      transition: all 0.5s;
-      cursor: pointer;
-      margin: 5px;
-    }
-    
-    .button span {
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-      transition: 0.5s;
-    }
-    
-    .button span:after {
-      content: '\00bb';
-      position: absolute;
-      opacity: 0;
-      top: 0;
-      right: -20px;
-      transition: 0.5s;
-    }
-    
-    .button:hover span {
-      padding-right: 25px;
-    }
-    
-    .button:hover span:after {
-      opacity: 1;
-      right: 0;
-    }
-   
-    #sports {
-     
-      margin-top: inherit;
-      outline: 0mm;
-      text-decoration-color: white;
-      background-color: #3AAFA9;
-      padding-top: 3rem;
-      padding-bottom: 4rem;
-    }
-    
-
-    .person {
-      border: 10px solid transparent;
-      margin-bottom: 25px;
-      width: 60%;
-      height: 70%;
-      opacity: 1;
-  }
-  .person:hover {
-      border-color: #C5C6C7;
-  }
-  .img-circle {
-    border-radius: 50%;
-   }
-
-   #team {
-     padding: 3rem;
-     margin-bottom: 1rem;
-     background-color: #DEF2F1;
-   }
-   .text-muted {
-    color: #DEF2F1!important;
-    text-shadow: 0.5px 0.5px 0.5px black;
-   }
-   
-   
-   
-   
-   
-
-
-
-
-
-    /* ----Media Queries ---*/
-    @media (max-width: 992px) {
-      .social a{
-        font-size: 2em;
-        padding: 2rem;
-      }
-    
-    .carousel-inner img-fluid{
-      width: 100%;
-      height: 100%;
-    }
-   
-  }
-    @media (max-width: 768px) {
+.display-2 {
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 75px;
+  margin-bottom: 50px;
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+#collegename .display-2 {
+  font-size: 40px;
+  font-style: italic;
+  line-height: 40px;
+  margin-bottom: 25px;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 .carousel-caption {
-  top: 80%;
-  ;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-70%);
 }
 .carousel-caption h1 {
-  font-size: 350%;
-  transform: translateY(-200%);
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #000;
 }
 .carousel-caption h3 {
-  font-size: 140%;
-  font-weight: 400;
-  transform: translateY(-500%);
-  
-  padding-bottom: 0.2rem;
-}
-.display-2 {
-  transform: translateY(-100%);
-}
-.carousel-caption .btn {
-  font-size: 95%;
-  padding: 8px 14px;
-  
-}
-.display-4 {
   font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
 }
-.social a{
+.carousel-inner img-fluid {
+  width: 100% !important ;
+  height: 90%;
+}
+
+.img-fluid {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.fa-facebook {
+  color: #3b5998;
+  font-size: 2em;
+}
+.fa-instagram {
+  color: #517fa4;
+  font-size: 2em !important;
+}
+.fa-youtube {
+  color: #bb0000;
+  font-size: 2em;
+}
+.fa-snapchat {
+  color: #fffc00;
+  font-size: 2em;
+}
+.social a {
   font-size: 2.5em;
-  padding: 1.2rem;
+  padding: 3rem;
 }
-.jumbotron .img-fluid {
-  vertical-align: middle;
-  width: 200%;
+.fa-facebook:hover,
+.fa-snapchat:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+  color: #d5d5d5;
 }
-.btn {
-  margin-bottom: 2em;
+
+.card {
+  height: 75%;
+  width: 70%;
+  margin-top: 90px;
+  margin-left: 200px;
 }
-    } 
-    
+.card-title {
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+.card-img-top {
+  width: 100%;
+  height: 60%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
 
+.my-3 {
+  width: 50%;
+}
+footer {
+  padding: 25px 0;
+  text-align: center;
+  background-color: #222;
+  color: #d5d5d5;
+  margin-top: 100px;
+  text-transform: uppercase;
+}
 
-    
-    
+.button {
+  background-color: #f4511e;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 1000px;
+  height: 5rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
 
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
-    @media (min-width: 481px) and (max-width: 767px) {
-  
-      .carousel-caption {
-  
-        top: 50%;
-        transform: translateY(-130%);
-       
-      }
-      .carousel-caption h1 {
-        font-size: 170%;
-      }
-      .carousel-caption h3 {
-        font-size: 110%;
-        transform: translateY(-100%);
-      }
-      .carousel-caption .btn {
-        font-size: 90%;
-        padding: 4px 8px;
-      }
-      .carousel-indicators {
-        display: none;
-      }
-      .display-4 {
-        font-size: 160%;
-      }
-      .social a{
-        font-size: 2em;
-        padding: 0.7rem;
-      }
-      .carousel-inner img-fluid {
-        height: 10% !important;
-      }
-      .display-2{
-        font-size: 75%;
-      }
-      .navbar-brand{
-        font-size:1.4rem !important;
-        margin-right: 1.5rem;
-      }
-      
-      
-    }
-    
-    /* 
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#sports {
+  margin-top: inherit;
+  outline: 0mm;
+  text-decoration-color: white;
+  background-color: #3aafa9;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.person {
+  border: 10px solid transparent;
+  margin-bottom: 25px;
+  width: 60%;
+  height: 70%;
+  opacity: 1;
+}
+.person:hover {
+  border-color: #c5c6c7;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+#team {
+  padding: 3rem;
+  margin-bottom: 1rem;
+  background-color: #def2f1;
+}
+.text-muted {
+  color: #def2f1 !important;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+/* ----Media Queries ---*/
+@media (max-width: 992px) {
+  .social a {
+    font-size: 2em;
+    padding: 2rem;
+  }
+
+  .carousel-inner img-fluid {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 80%;
+  }
+  .carousel-caption h1 {
+    font-size: 350%;
+    transform: translateY(-200%);
+  }
+  .carousel-caption h3 {
+    font-size: 140%;
+    font-weight: 400;
+    transform: translateY(-500%);
+
+    padding-bottom: 0.2rem;
+  }
+  .display-2 {
+    transform: translateY(-100%);
+  }
+  .carousel-caption .btn {
+    font-size: 95%;
+    padding: 8px 14px;
+  }
+  .display-4 {
+    font-size: 200%;
+  }
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+  .jumbotron .img-fluid {
+    vertical-align: middle;
+    width: 200%;
+  }
+  .btn {
+    margin-bottom: 2em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-130%);
+  }
+  .carousel-caption h1 {
+    font-size: 170%;
+  }
+  .carousel-caption h3 {
+    font-size: 110%;
+    transform: translateY(-100%);
+  }
+  .carousel-caption .btn {
+    font-size: 90%;
+    padding: 4px 8px;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .display-4 {
+    font-size: 160%;
+  }
+  .social a {
+    font-size: 2em;
+    padding: 0.7rem;
+  }
+  .carousel-inner img-fluid {
+    height: 10% !important;
+  }
+  .display-2 {
+    font-size: 75%;
+  }
+  .navbar-brand {
+    font-size: 1.4rem !important;
+    margin-right: 1.5rem;
+  }
+}
+
+/* 
       ##Device = Most of the Smartphones Mobiles (Portrait)
       ##Screen = B/w 320px to 479px
     */
-    
-    @media (min-width: 320px) and (max-width: 480px) {
-      
-      .carousel-caption {
-  
-        top: 50%;
-        transform: translateY(-190%);
-       
-      }
-      .carousel-caption h1 {
-        font-size: 150%;
-        transform: translateY(20%);
-      }
-      
-      #collegename {
-          
-     font-size: 110%;
-     transform: translateY(-45%);
-      }
-      .carousel-caption .btn {
-        font-size: 90%;
-        padding: 4px 8px;
-      }
-      .carousel-indicators {
-        display: none;
-      }
-      .display-4 {
-        font-size: 160%;
-      }
-      .social a{
-        font-size: 2em;
-        padding: 0.7rem;
-      }
-      .carousel-inner img-fluid {
-        height: 10% !important;
-      }
-      .display-2{
-        font-size: 75%;
-      }
-      .navbar-brand{
-        font-size:1.2rem !important;
-        
-      }
-      #Aradhya {
-        margin-top: 2rem;
-      }
-     
-      
-      
-    }
-   
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-190%);
+  }
+  .carousel-caption h1 {
+    font-size: 150%;
+    transform: translateY(20%);
+  }
+
+  #collegename {
+    font-size: 110%;
+    transform: translateY(-45%);
+  }
+  .carousel-caption .btn {
+    font-size: 90%;
+    padding: 4px 8px;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .display-4 {
+    font-size: 160%;
+  }
+  .social a {
+    font-size: 2em;
+    padding: 0.7rem;
+  }
+  .carousel-inner img-fluid {
+    height: 10% !important;
+  }
+  .display-2 {
+    font-size: 75%;
+  }
+  .navbar-brand {
+    font-size: 1.2rem !important;
+  }
+  #Aradhya {
+    margin-top: 2rem;
+  }
+}
