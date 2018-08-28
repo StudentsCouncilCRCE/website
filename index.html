@@ -66,87 +66,11 @@
       }
   }
 
-  .wrap {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-          background-color: black;
-}
-
-.text {
-  color: #fbae17;
-  display: inline-block;
-  margin-left: 5px;
-}
-
-.bounceball {
-  position: relative;
-  display: inline-block;
-  height: 37px;
-  width: 15px;
-}
-.bounceball:before {
-  position: absolute;
-  content: '';
-  display: block;
-  top: 0;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: #fbae17;
-  -webkit-transform-origin: 50%;
-          transform-origin: 50%;
-  -webkit-animation: bounce 500ms alternate infinite ease;
-          animation: bounce 500ms alternate infinite ease;
-}
-
-@-webkit-keyframes bounce {
-  0% {
-    top: 30px;
-    height: 5px;
-    border-radius: 60px 60px 20px 20px;
-    -webkit-transform: scaleX(2);
-            transform: scaleX(2);
-  }
-  35% {
-    height: 15px;
-    border-radius: 50%;
-    -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-  }
-  100% {
-    top: 0;
-  }
-}
-
-@keyframes bounce {
-  0% {
-    top: 30px;
-    height: 5px;
-    border-radius: 60px 60px 20px 20px;
-    -webkit-transform: scaleX(2);
-            transform: scaleX(2);
-  }
-  35% {
-    height: 15px;
-    border-radius: 50%;
-    -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-  }
-  100% {
-    top: 0;
-  }
-}
+ 
 
 </style>
 <script>
-    var wrap = document.getElementById("wrap");
-    window.addEventListener('load',function()
-    {
-        wrap.style.display='none';
-    })
+    
 </script>
 
 
@@ -155,12 +79,7 @@
 <body id="page-top">
     
  <!--CSS Spinner-->
- <div class="wrap">
-    <div class="loading">
-      <div class="bounceball"></div>
-      <div class="text">NOW LOADING</div>
-    </div>
-  </div>
+ 
 
 
 
@@ -384,7 +303,7 @@
                             
                             <div class="col-lg-8 offset-lg-2 text-center animated infinite pulse">
                                     <a href="team.html">
-                                        <p style="font-size: 3rem">Know our entire team!</p>
+                                        <p style="font-size: 3rem;background-color: deepskyblue">Know our entire team!</p>
                                     </a>
                                 </div>
                         </div>
@@ -435,7 +354,7 @@
                             </li>
                             
                             <li class="list-inline-item">
-                                <a href="sports">IntraSports</a>
+                                <a href="intrasports.html">IntraSports</a>
                             </li>
                         </ul>
                     </div>
@@ -460,7 +379,7 @@
                                 <!-- Project Details Go Here -->
                                 <h2 class="text-center" style="text-transform: uppercase">International Yoga Day</h2>
                                 <p class="item-intro text-center" style="color: #2B7A78">Breathe in, Breathe out</p>
-                                <img class="img-fluid d-block mx-auto" src="./img/yoga.jpg" alt="yogaday">
+                                
                                 <p>DATE: 21 June, 2018 (Thursday)</p>
                                    <p>DURATION: 10:00 a.m. to 12:00 p.m.</p>
                                     <p>VENUE: SAMVAD, FR.CRCE, BANDSTAND, BANDRA (W)</p>
@@ -478,6 +397,76 @@
             </div>
         </div>
     </div>
+
+    <!--Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 offset-lg-2">
+                                <div class="modal-body text-center">
+                                    <!-- Project Details Go Here -->
+                                    <h2 class="text-center" style="text-transform: uppercase">friendship day</h2>
+                                    <p class="item-intro text-center" style="color: #2B7A78">4th August,2018</p>
+                                    <img class="img-fluid d-block mx-auto" src="./img/fd3.jpg" alt="FriendshipDay">
+                                    <p>VENUE: COLLEGE CAMPUS</p>
+                                    <p>Students from all the branches including the first year's celebrated Friendship Day together by participating in various fun games and activities.</p>
+                                    <p>The following games were played:</p>
+                                    <p>1. Dizzy slope</p>
+                                    <p>2. Trembling knees</p>
+                                    <p>3. Squeeze it</p>
+                                    <p> Tour de Campus:</p>
+                                    <p>1. Ping pong shots</p>
+                                    <p>2. Cup Cardio</p>
+                                    <p>3. Brick and Walk</p>
+                                    <p>4. Pic scanvenger</p>
+                                    <br>
+                                    <h5>The cultural points awarded for all classes are as follows:<h5>
+                                        <p>FE'S</p>
+                                        <P>1. Fe Elex = 45</P>
+                                        <p>2. Fe Comps = 10</p>
+                                        <p>3. Fe Prod = 10</p>
+                                        <p>4. FE IT = 5</p>
+                                        <br>
+                                        <p>SE'S</p>
+                                        <p>1. Se Comps = 120</p>
+                                        <p>2. Se Prod = 25</p>
+                                        <p>3. Se IT = 20</p>
+                                        <p>4. Se Elex = 0</p>
+                                        <br>
+                                        <p>TE'S</p>
+                                        <p>1. Te Prod = 485</p>
+                                        <p>2. Te Elex = 70</p>
+                                        <p>3. Te Comps = 65</p>
+                                        <p>4. Te IT = 0</p>
+                                        <br>
+                                        <p>BE'S</p>
+                                        <p>1. Be Comps = 265</p>
+                                        <p>2. Be IT = 265</p>
+                                        <p>3. Be Prod = 225</p>
+                                        <p>4. Be Elex = 105</p>
+                                        <br>
+                                        
+                            
+                                        
+                                    
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i>Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        
     <!-- Modal 3-->
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
