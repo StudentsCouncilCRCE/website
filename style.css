@@ -1,4 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+<<<<<<< HEAD
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    color: #222;
+  
+  }
+ .navbar   {
+    padding: .8rem;
+    background-color: black !important;
+ 
+  }
+  .navbar-brand {
+    color: white !important;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial;
+    font-size: 1.9rem !important;
+
+  }
+  .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: .75em 0;
+    letter-spacing: 1px;
+    color: lightgrey !important;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+  }
+  .jumbotron {
+    margin-bottom: 00;
+    background-color: #2B7A78;
+  }
+ 
+=======
 html,
 body {
   height: 100%;
@@ -28,6 +62,7 @@ body {
   margin-bottom: 00;
   background-color: #2b7a78;
 }
+>>>>>>> e735341210b234065a9fe80a55b0d06b2dc1ad63
 
 .navbar-light .navbar-nav li a {
   padding-right: 20px;
